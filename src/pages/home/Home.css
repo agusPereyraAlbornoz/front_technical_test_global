@@ -1,0 +1,14 @@
+body{
+  background: #EEEEEE;
+}
+.home-base-container{
+  display: flex;
+  height: 100%;
+  width: 100%;
+  .home-container{
+    flex: 1;
+    margin-top: 65px;
+    padding: 1rem;
+    width: 100%;
+  }
+}

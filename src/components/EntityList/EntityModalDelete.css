@@ -1,0 +1,42 @@
+.entity-modal-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    background-color: white;
+    box-shadow: 0px 0px 24px rgba(0, 0, 0, 0.2);
+    padding: 0px;
+  }
+
+  .entity-modal-header {
+    font-size: 1.5rem;
+    background-color: #646464;
+    padding: 0.75rem;
+    color: orange;
+    border-radius: 0px 0px 5px 5px;
+    font-weight: bold;
+    font-family: 'Arial', 'Helvetica', sans-serif;
+  }
+  
+  .entity-modal-body{
+    display: flex;
+    justify-content: center;
+    font-family: 'Arial', 'Helvetica', sans-serif;
+    padding: 2rem;
+  }
+  
+  .entity-modal-buttons {
+    display: flex;
+    justify-content: flex-end;
+    padding: 1rem;
+  }
+
+  .entity-modal-buttons .MuiButton-contained.MuiButton-textSecondary {
+    color: orange;
+  }
+  
+  .entity-modal-buttons .MuiButton-containedPrimary {
+    background-color: orange;
+    color: white;
+  }

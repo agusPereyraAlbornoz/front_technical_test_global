@@ -1,0 +1,21 @@
+.principalMenu-container{
+    .drawer-custom{
+        width: 240px;
+        flex-shrink: 0;
+    }
+    & .MuiDrawer-paper {
+        width: 240px;
+        box-sizing: 'border-box';
+        background: #646464;
+    }
+    .principalMenu-List{
+        overflow: 'auto'
+    }
+
+    .MuiListItemText-root .MuiTypography-root.MuiListItemText-primary {
+        text-decoration: none !important;
+        color: orange;
+        font-weight: bold;
+        font-family: 'Arial', 'Helvetica', sans-serif;
+    }
+}
